@@ -19,7 +19,7 @@ void init(void) {
     player_set_is_computer(p1, 0);
     player_set_is_computer(p2, 0);
     player_set_is_computer(com, 1);
-    int size = readintrange("What size of board will you play?", 3, 10);
+    int size = readintrange("What size of board will you play?", 3, -1);
     b = create_boggle(size);
     mode = readintrange("What mode will you play?\n\t1. Single Player\n\t2. Double Player\n\t3. Vs Computer", 1, 3);
     p[0] = p1;
@@ -38,8 +38,6 @@ void init(void) {
         break;
     }
 }
-
-
 
 void initgame(void) {
     static char s[BUFSIZ];
@@ -68,6 +66,8 @@ void game(void) {
         printf("\033[2J");
         player_input(p[i], b);
         player_get_result(p[i], b);
+        static char s[BUFSIZ];
+        readline(s);
     }
 }
 
