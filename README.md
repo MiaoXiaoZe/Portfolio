@@ -16,12 +16,11 @@ grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
 
 
 
-Steps
-1. Downloads zip file
-2. Unzip files.
-3. Make word file.
-4. Type "make"
-5. Type "valgrind -q ./main" to start game
+Steps:
+1. Unzip file.
+2. Make word file.
+3. Type "make"
+4. Type "valgrind -q ./main" to start game
 
 
 
