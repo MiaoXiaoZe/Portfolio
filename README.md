@@ -1,4 +1,9 @@
-Make a word list:
+1. On Ubuntu, you can use the following commands to install unzip:         
+        sudo apt-get install unzip
+   To unzip files, use:
+        unzip ./FIleName.zip
+
+2. Make a word list:
 ```sh
 grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
 ```
@@ -7,10 +12,14 @@ grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
 
 
 
+
 Steps
-1. make a word file
-2. type "make"
-3. type "valgrind -q ./main" to start game
+1. Downloads zip file
+2. Unzip files.
+3. Make word file.
+4. Type "make"
+5. Type "valgrind -q ./main" to start game
+
 
 
 Game rules:
@@ -18,3 +27,7 @@ Game rules:
 2. You can enter only the letter adjacent to the last selected letter.
 3. The time is set to 3 minutes.
 4. For each correct word you discover, you earn "1 point for a four letter text", "2 points for a five letter text".
+
+
+
+
