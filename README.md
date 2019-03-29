@@ -23,7 +23,9 @@ To make a word list:
 grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
 ```
 /usr/share/dict/words can be replaced by other text files if they contain words and there is only one word each line
+
 3. Type "make"
+
 4. Type "valgrind -q ./main" to start game
 
 
