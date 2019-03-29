@@ -15,7 +15,7 @@ Running:
 1. Unzip file.
 To unzip files, use:
 ```sh
-unzip ./FIleName.zip
+unzip ./FileName.zip
 ```
 2. Make word file.
 To make a word list:
