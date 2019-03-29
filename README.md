@@ -1,8 +1,11 @@
 1. On Ubuntu, you can use the following commands to install unzip:         
-        sudo apt-get install unzip
-   To unzip files, use:
-        unzip ./FIleName.zip
-
+```sh
+sudo apt-get install unzip
+```
+To unzip files, use:
+```sh
+unzip ./FIleName.zip
+```
 2. Make a word list:
 ```sh
 grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
