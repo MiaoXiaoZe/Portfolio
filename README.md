@@ -32,7 +32,7 @@ grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
 
 Game rules
 -------
-1. The minimum number of letters in the word you discover should be 4 letters
+1. The minimum number of letters in the word you discover should be 3 letters
 2. You can enter only the letter adjacent to the last selected letter.
 3. The time is set to 3 minutes.
 4. For each correct word you discover, you earn "1 point for a four letter text", "2 points for a five letter text".
