@@ -10,7 +10,7 @@ sudo apt-get install unzip
 
 
 
-Running:
+Running
 -------
 1. Unzip file.
 To unzip files, use:
@@ -30,7 +30,7 @@ grep "^[A-Za-z]*$" /usr/share/dict/words > dict.txt
 
 
 
-Game rules:
+Game rules
 -------
 1. The minimum number of letters in the word you discover should be 4 letters
 2. You can enter only the letter adjacent to the last selected letter.
